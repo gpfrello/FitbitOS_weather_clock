@@ -1,0 +1,6 @@
+<svg class="background">
+  <text id="timeLabel" />
+  <text id="temperatureLabel" />
+  <text id="meteoLabel" />
+  <text id="locationLabel" />
+</svg>

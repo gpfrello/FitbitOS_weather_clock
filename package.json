@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "6ca47176-07a6-4933-8aa1-a65c9f59d752",
+    "appType": "clockface",
+    "appDisplayName": "Clockface Weather",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_internet",
+      "access_location",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Clockface Weather"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 60;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#temperatureLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+  x: 0;
+  y: 15;
+  fill: white;
+}
+
+#meteoLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+  x: 0;
+  y: 35;
+  fill: white;
+}
+
+#locationLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 15;
+  text-anchor: end;
+  x: 100%;
+  y: 15;
+  fill: white;
+}
