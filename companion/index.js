@@ -2,7 +2,7 @@
 import * as messaging from "messaging";
 import { geolocation } from "geolocation";
 
-var API_KEY = "7a67a32640cd790bb6af48d05ab192d0";
+var API_KEY = "YOUR APIKEY here";
 
 // Fetch the weather from OpenWeather
 function queryOpenWeather() {
