@@ -86,4 +86,4 @@ messaging.peerSocket.onerror = function(err) {
   console.log("Connection error: " + err.code + " - " + err.message);
 }
 
-setInterval(fetchWeather, 60 * 1000 * 60);
+setInterval(fetchWeather, 60 * 1000 * 60); //update weather every hour (60 minutes per hour * 1000 millisecs * 60 seconds per hour)
